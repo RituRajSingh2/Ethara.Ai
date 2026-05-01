@@ -2,6 +2,9 @@
   "name": "ethara-ai",
   "version": "1.0.0",
   "description": "Ethara.Ai - Team Task Manager",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "build": "cd frontend && npm run build",
